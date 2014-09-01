@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh_cn">
+<% include includes/head.ejs %>
+<body>
+<% include includes/header.ejs %>
+<div id="content">
+    <div class="main-content wrapper">
+        <div class="inner">
+            <div class="banner">
+                <div id="carousel-generic" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-generic" data-slide-to="1" class=""></li>
+                        <li data-target="#carousel-generic" data-slide-to="2" class=""></li>
+                        <li data-target="#carousel-generic" data-slide-to="3" class=""></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="/images/carousel/1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="/images/carousel/2.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="/images/carousel/3.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="/images/carousel/4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="course">
+                <span>课程类别：</span>
+                <ul role="tablist" id="tab">
+                    <li class="active"><a href="#junior" role="tab" data-toggle="tab">小学部</a></li>
+                    <li><a href="#middle" role="tab" data-toggle="tab">中学部</a></li>
+                    <li><a href="#high" role="tab" data-toggle="tab">高中部</a></li>
+                    <li><a href="#trustee" role="tab" data-toggle="tab">晚托班</a></li>
+                    <li><a href="#online" role="tab" data-toggle="tab">网上授课</a></li>
+                </ul>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane active" id="junior">
+                    <% include courses/tab-1.ejs %>
+                </div>
+                <div class="tab-pane" id="middle">
+                    <% include courses/tab-2.ejs %>
+                </div>
+                <div class="tab-pane" id="high">
+                    <% include courses/tab-3.ejs %>
+                </div>
+                <div class="tab-pane" id="trustee">
+                    <% include courses/tab-4.ejs %>
+                </div>
+                <div class="tab-pane" id="online">
+                    <% include courses/tab-5.ejs %>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<% include includes/footer.ejs %>
+</body>
+</html>

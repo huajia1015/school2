@@ -1,0 +1,23 @@
+<div id="header">
+    <div class="logo wrapper">
+        <div class="inner">
+            <a href="/"><img src="/images/logo.png"/></a>
+
+            <div class="telephone">咨询电话：400-689-0611 <br/>
+                <span class="telephone-1">021-68900157</span></div>
+        </div>
+    </div>
+    <div class="nav wrapper">
+        <div class="inner">
+            <ul>
+                <% nav.forEach(function (item, i) { %>
+                <% if(i === index){ %>
+                <li class="current"><a href="<%= item.url %>"><%= item.name %></a></li>
+                <% }else{ %>
+                <li><a href="<%= item.url %>"><%= item.name %></a></li>
+                <% } %>
+                <% }); %>
+            </ul>
+        </div>
+    </div>
+</div>
