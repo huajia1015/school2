@@ -42,6 +42,7 @@
                     <li><a href="#high" role="tab" data-toggle="tab">高中部</a></li>
                     <li><a href="#trustee" role="tab" data-toggle="tab">晚托班</a></li>
                     <li><a href="#online" role="tab" data-toggle="tab">网上授课</a></li>
+                    <li><a href="#winter" role="tab" data-toggle="tab">寒托班</a></li>
                 </ul>
             </div>
             <div class="tab-content">
@@ -60,6 +61,9 @@
                 <div class="tab-pane" id="online">
                     <% include courses/tab-5.ejs %>
                 </div>
+                <div class="tab-pane" id="winter">
+                    <% include courses/tab-6.ejs %>
+                </div>
             </div>
 
         </div>
@@ -73,5 +77,11 @@
     </div>
 </div>
 <% include includes/footer.ejs %>
+<script>
+    $(function(){
+        $(".main table tr") .children("td:even()").css({"font-size":"32px"});
+        $(".main table tr") .children("td:odd()").css({"font-size":"24px"});
+    })
+</script>
 </body>
 </html>
