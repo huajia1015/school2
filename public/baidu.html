@@ -14,7 +14,7 @@ html,body{
 </style>  
 </head>  
 <body>  
-    <div style="width:400px;height:300px;border:1px solid gray" id="container"</div>  
+    <div style="width:1000px;height:500px;border:1px solid gray" id="container"</div>  
 </body>  
 </html>  
 <script type="text/javascript">  
@@ -32,7 +32,7 @@ html,body{
  
     var content1 ="<form id=\"gotobaiduform\" action=\"http://api.map.baidu.com/direction\" target=\"_blank\" method=\"get\">" + licontent +hiddeninput+"</form>";
    
-    var opts1 = { width:1000px;height:500px; };  
+    var opts1 = {  width: 300 };  
        
     var  infoWindow = new BMap.InfoWindow(content1, opts1);  
     marker.openInfoWindow(infoWindow);  
