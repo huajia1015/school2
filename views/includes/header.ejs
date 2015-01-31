@@ -14,7 +14,7 @@
                 <% if(i === index){ %>
                 <li class="current"><a href="<%= item.url %>"><%= item.name %></a></li>
                 <% }else{ %>
-                <li><a href="<%= item.url %>"><%= item.name %></a></li>
+                <li><a href="<%= item.url %>" onclick="_czc.push(['_trackEvent', '首页', '菜单', '%= item.name %']);><%= item.name %></a></li>
                 <% } %>
                 <% }); %>
             </ul>
