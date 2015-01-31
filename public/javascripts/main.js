@@ -10,6 +10,7 @@ if(window.location.href.indexOf('/courses/')!=-1){
 $('.order-block').click(function (e) {
     e.preventDefault();
     $('.cover').show();
+	_czc.push(['_trackEvent', '预约试听', '预约试听', '预约试听','1','dafen']);
 });
 $('.cover-close,.cover').click(function () {
     $('.cover').hide();
