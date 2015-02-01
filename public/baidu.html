@@ -51,10 +51,12 @@ html,body{
             {  
                 $("input[name=mode]").val("transit");  
                 $("#gotobaiduform")[0].submit();  
+				_czc.push(['_trackEvent', '关于我们', '地图', '查公交']);
             }else if(type==2)  
             {      
                 $("input[name=mode]").val("driving");          
                 $("#gotobaiduform")[0].submit();  
+				_czc.push(['_trackEvent', '关于我们', '地图', '自驾']);
             }  
         }  
     }    
