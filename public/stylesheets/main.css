@@ -22,6 +22,7 @@ body {
   background: url(../images/content-bg.png);
   background-repeat: repeat;
   padding-bottom: 50px;
+  min-width:1040px;
 }
 
 /* line 26, ../sass/main.scss */
