@@ -1802,4 +1802,14 @@ ul.team_model_maintwo_style-one li ol {
   padding: 0;
   list-style: none;
 }
-
+.cl{clear:both;}
+.bg{  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat; height:1392px; overflow:hidden;}
+#wantuo{ float:left; width:230px; height:110px; margin-left:85px; margin-top:300px; text-align:center; }
+#xsc{ float:left; width:230px; height:110px; margin-left:100px; margin-top:300px; text-align:center; }
+#quanke{ float:left; width:230px; height:110px; margin-left:70px; margin-top:300px; text-align:center; }
+.jieshao h2{ margin:0; padding:0; font-size:28px; line-height:40px; font-weight:bolder; color:#fafafa;}
+.jieshao p{font-size:28px; line-height:32px;}
+.kecheng{width:1000px; margin:50px 20px 0; height:930px; text-align:center; background-color:#fff; padding-top:20px;}
+.foot1{height:80px; background-color:#175EF1;}
+.foot1 p{font-size:22px; color:#fff; line-height:50px; text-align:center;}
