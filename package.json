@@ -1,9 +1,9 @@
 {
-  "name": "zhao",
-  "version": "0.0.1",
+  "name": "zhaojunlike",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www.js"
   },
   "dependencies": {
     "express": "~4.2.0",
